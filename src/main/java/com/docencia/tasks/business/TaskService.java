@@ -2,7 +2,7 @@ package com.docencia.tasks.business;
 
 import org.springframework.stereotype.Service;
 
-import com.docencia.tasks.adapters.out.persistence.adapter.interfac.ITaskPersistenceAdapter;
+import com.docencia.tasks.adapters.out.persistence.adapter.ITaskPersistenceAdapter;
 import com.docencia.tasks.domain.model.Task;
 
 import java.util.List;

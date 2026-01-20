@@ -1,4 +1,4 @@
-package com.docencia.tasks.adapters.out.persistence.entity;
+package com.docencia.tasks.adapters.out.persistence.adapter;
 
 import jakarta.persistence.*;
 

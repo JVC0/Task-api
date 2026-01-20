@@ -1,4 +1,4 @@
-package com.docencia.tasks.adapters.in.api.dto;
+package com.docencia.tasks.adapters.in.api;
 
 public class LoginRequest {
     private String username;

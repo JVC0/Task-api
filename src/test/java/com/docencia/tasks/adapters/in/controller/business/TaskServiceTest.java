@@ -7,7 +7,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.docencia.tasks.adapters.out.persistence.adapter.interfac.ITaskPersistenceAdapter;
+import com.docencia.tasks.adapters.out.persistence.adapter.ITaskPersistenceAdapter;
 import com.docencia.tasks.business.TaskService;
 import com.docencia.tasks.domain.model.Task;
 

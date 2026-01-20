@@ -1,11 +1,11 @@
 package com.docencia.tasks.adapters.mapper;
 
 import org.mapstruct.*;
-
+import org.mapstruct.factory.Mappers;
 
 import com.docencia.tasks.adapters.in.api.TaskRequest;
 import com.docencia.tasks.adapters.in.api.TaskResponse;
-import com.docencia.tasks.adapters.out.persistence.entity.TaskJpaEntity;
+import com.docencia.tasks.adapters.out.persistence.adapter.TaskJpaEntity;
 import com.docencia.tasks.domain.model.Task;
 
 @Mapper(componentModel = "spring")

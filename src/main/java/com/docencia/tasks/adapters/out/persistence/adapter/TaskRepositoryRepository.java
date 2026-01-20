@@ -1,8 +1,6 @@
-package com.docencia.tasks.adapters.out.persistence.repository;
+package com.docencia.tasks.adapters.out.persistence.adapter;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.docencia.tasks.adapters.out.persistence.entity.TaskJpaEntity;
 
 public interface TaskRepositoryRepository extends JpaRepository<TaskJpaEntity, Long> {
 }

@@ -3,9 +3,9 @@ package com.docencia.tasks.adapters.out.persistence;
 import org.junit.jupiter.api.Test;
 
 import com.docencia.tasks.adapters.mapper.TaskMapper;
+import com.docencia.tasks.adapters.out.persistence.adapter.TaskJpaEntity;
 import com.docencia.tasks.adapters.out.persistence.adapter.TaskPersistenceAdapter;
-import com.docencia.tasks.adapters.out.persistence.entity.TaskJpaEntity;
-import com.docencia.tasks.adapters.out.persistence.repository.TaskRepositoryRepository;
+import com.docencia.tasks.adapters.out.persistence.adapter.TaskRepositoryRepository;
 import com.docencia.tasks.domain.model.Task;
 
 import java.util.List;

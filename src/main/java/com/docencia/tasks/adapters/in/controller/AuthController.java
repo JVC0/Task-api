@@ -7,8 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.docencia.tasks.adapters.in.api.dto.LoginRequest;
-import com.docencia.tasks.adapters.in.api.dto.TokenResponse;
+import com.docencia.tasks.adapters.in.api.LoginRequest;
+import com.docencia.tasks.adapters.in.api.TokenResponse;
 import com.docencia.tasks.infrastructure.security.AuthService;
 import com.docencia.tasks.infrastructure.security.JwtService;
 
